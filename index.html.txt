@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>محاكاة تصيّد | Phishing Simulation</title>
+  <style>
+    body {
+      font-family: 'Tahoma', sans-serif;
+      background: linear-gradient(to right, #fceabb, #f8b500);
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 50px auto;
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      padding: 30px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #d32f2f;
+      font-size: 26px;
+    }
+
+    h2 {
+      color: #2e7d32;
+      font-size: 22px;
+      margin-top: 30px;
+    }
+
+    ul {
+      text-align: right;
+      direction: rtl;
+      list-style-type: "✅ ";
+      margin-top: 15px;
+    }
+
+    .divider {
+      height: 1px;
+      background-color: #ccc;
+      margin: 30px 0;
+    }
+
+    .emoji {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 20px;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="emoji">⚠️🕵️‍♀️</div>
+    <h1>لقد وقعت في محاكاة تصيّد إلكتروني!</h1>
+    <p>هذه تجربة توعوية تهدف لزيادة وعيك الأمني، ولا يوجد أي ضرر.</p>
+
+    <h2>🔐 نصائح للحماية :</h2>
+    <ul>
+      <li>لا تضغط على الروابط غير الموثوقة.</li>
+      <li>تحقق من عنوان البريد أو الرقم قبل التفاعل.</li>
+      <li>استخدم المصادقة الثنائية لحساباتك.</li>
+      <li>أبلغ قسم الأمن السيبراني عن أي شكوك.</li>
+      <li>دائمًا فكّر قبل أن تنقر!</li>
+    </ul>
+
+    <div class="divider"></div>
+
+    <h2>🔐 Security Tips :</h2>
+    <ul dir="ltr" style="text-align: left; list-style-type: '✔️ ';">
+      <li>Do not click unknown or suspicious links.</li>
+      <li>Verify email addresses and sender names.</li>
+      <li>Use two-factor authentication (2FA).</li>
+      <li>Report anything suspicious to your security team.</li>
+      <li>Think before you click!</li>
+    </ul>
+
+    <div class="footer">
+       دبلوم الأمن السيبراني
+    </div>
+  </div>
+
+</body>
+</html>
